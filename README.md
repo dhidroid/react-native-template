@@ -60,14 +60,8 @@ Contributions are welcome! Please follow these steps to contribute:
 4. Push to your branch and create a pull request.
 
 ## Credits
-- [Your Name](https://github.com/yourusername) - Project Maintainer
-- [Collaborator 1](https://github.com/collaborator1) - Contributor
-- [Collaborator 2](https://github.com/collaborator2) - Contributor
+- [Dhineshkumar](https://github.com/Dhinesh4668) - Project contributter
 
-## Sponsors
-We would like to thank our sponsors for their support:
-- [Sponsor 1](https://sponsor1.com)
-- [Sponsor 2](https://sponsor2.com)
 
 ## NPM Commands
 Here are some commonly used NPM commands for this project:
