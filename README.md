@@ -1,79 +1,83 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# React Native Template
 
-# Getting Started
+## Project Overview
+This React Native template provides a robust starting point for building mobile applications. It includes essential features and configurations to streamline development and enhance user experience.
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+## Features
+- **State Management**: Utilizes Zustand for efficient state management.
+- **Secure Storage**: Implements React Native Keychain for securely storing sensitive keys and tokens.
+- **Pre-configured Themes**: Comes with pre-defined themes for consistent styling across the application.
+- **Pre-defined Models**: Includes models to standardize data structures.
+- **Reusable Components**: Offers a library of reusable components to speed up development.
+- **Utilities**: Contains utility functions for common tasks.
+- **JSON Server**: Configured for easy mock API development.
+- **SVG Configuration**: Supports SVG assets for scalable graphics.
+- **SQLite Configuration**: Integrated SQLite for local data storage.
+- **Permissions**: Handles permissions for both Android and iOS platforms.
+- **Notifications**: Supports remote and in-app notifications.
+- **Gesture Handler**: Implements gesture handling for enhanced user interactions.
+- **Reanimation**: Utilizes reanimation for smooth animations and transitions.
 
-## Step 1: Start the Metro Server
+## Installation
+To get started with this template, follow these steps:
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   cd <repository-name>
+   ```
 
-To start Metro, run the following command from the _root_ of your React Native project:
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-```bash
-# using npm
-npm start
+3. For iOS, navigate to the `ios` directory and install pods:
+   ```bash
+   cd ios
+   pod install
+   cd ..
+   ```
 
-# OR using Yarn
-yarn start
-```
+4. Run the application:
+   - For Android:
+     ```bash
+     npm run android
+     ```
+   - For iOS:
+     ```bash
+     npm run ios
+     ```
 
-## Step 2: Start your Application
+## Usage
+After setting up the project, you can start building your application using the provided components and configurations. Refer to the documentation of each library for detailed usage instructions.
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
+## Contributing
+Contributions are welcome! Please follow these steps to contribute:
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and commit them.
+4. Push to your branch and create a pull request.
 
-### For Android
+## Credits
+- [Your Name](https://github.com/yourusername) - Project Maintainer
+- [Collaborator 1](https://github.com/collaborator1) - Contributor
+- [Collaborator 2](https://github.com/collaborator2) - Contributor
 
-```bash
-# using npm
-npm run android
+## Sponsors
+We would like to thank our sponsors for their support:
+- [Sponsor 1](https://sponsor1.com)
+- [Sponsor 2](https://sponsor2.com)
 
-# OR using Yarn
-yarn android
-```
+## NPM Commands
+Here are some commonly used NPM commands for this project:
+- `npm start`: Start the development server.
+- `npm run build`: Build the project for production.
+- `npm test`: Run the test suite.
 
-### For iOS
+## NPM Profile
+You can find the NPM profile for this project [here](https://www.npmjs.com/package/your-package-name).
 
-```bash
-# using npm
-npm run ios
+## Collaborators
+We welcome contributions from the community! If you would like to collaborate, please reach out.
 
-# OR using Yarn
-yarn ios
-```
-
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
-
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
-
-## Step 3: Modifying your App
-
-Now that you have successfully run the app, let's modify it.
-
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
-
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
