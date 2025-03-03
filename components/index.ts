@@ -1,3 +1,4 @@
-import AlertComponent from './Alert/AlertComponent';
+import RNText from './common/Text';
+import RNButton from './common/Button/RNButton';
 
-export {AlertComponent};
+export {RNText, RNButton};

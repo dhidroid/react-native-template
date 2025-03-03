@@ -3,7 +3,8 @@ import React from 'react'
 
 import { useTheme } from '../../../themes/ThemeProvider';
 import { MinColor } from '../../../themes/colors';
-import TextComponent from '../../../components/common/Text';
+import { RNText } from '../../../components/index';
+// import { RNText } from 'components';
 import AlertCompoent from '../../../components/Alert/AlertComponent'
 
 
@@ -13,7 +14,7 @@ const HomeScreen = () => {
     return (
         <View style={{ backgroundColor: theme === 'dark' ? MinColor.darkColor : MinColor.lightColor, flex: 1 }}>
             <View>
-                <TextComponent>Home</TextComponent>
+                <RNText>text</RNText>
                 <Button title='alert' onPress={() => AlertCompoent.message("sjdhfj")} />
             </View>
         </View>

@@ -15,7 +15,7 @@ import { useTheme } from '../../themes/ThemeProvider';
  *    This is a dynamic text!
  * </TextComponent>
  */
-const TextComponent: React.FC<TextProps> = ({ style, children, ...props }) => {
+const RNText: React.FC<TextProps> = ({ style, children, ...props }) => {
     const { theme } = useTheme();
 
     return (
@@ -32,7 +32,7 @@ const TextComponent: React.FC<TextProps> = ({ style, children, ...props }) => {
     );
 };
 
-export default TextComponent;
+export default RNText;
 
 const styles = StyleSheet.create({
     text: {
