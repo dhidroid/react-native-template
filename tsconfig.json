@@ -2,16 +2,16 @@
   "extends": "@react-native/typescript-config/tsconfig.json",
   "compilerOptions": {
     "strict": true,
-"target": "es5",
+    "target": "es5",
     "paths": {
-     "@assets": [
-        "./assets/index"
+      "@assets": [
+        "./assets/index.ts"
       ],
       "@screen": [
-        "./src/screens/index"
+        "./src/screens/index.ts"
       ],
       "@components": [
-        "./src/components/index"
+        "./src/components/index.ts"
       ]
     },
     "esModuleInterop": true,
@@ -22,5 +22,3 @@
     "skipLibCheck": true
   }
 }
-
-
