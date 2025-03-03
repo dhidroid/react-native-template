@@ -1,5 +1,1 @@
-import {HomeScreens} from './HomeScreen/HomeScreens';
-
-export default {
-  HomeScreens,
-};
+export default {HomeScreen: require('./HomeScreen/HomeScreens')};

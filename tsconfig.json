@@ -1,13 +1,25 @@
 {
   "extends": "@react-native/typescript-config/tsconfig.json",
   "compilerOptions": {
-    "baseUrl": ".",
     "strict": true,
-    "skipLibCheck": true,
-    "jsx": "react-native",
+"target": "es5",
     "paths": {
-      // "@screen": ["src/Screens/index"]
-    }
+     "@assets": [
+        "./assets/index"
+      ],
+      "@screen": [
+        "./src/screens/index"
+      ],
+      "@components": [
+        "./src/components/index"
+      ]
+    },
+    "esModuleInterop": true,
+    "module": "CommonJS",
+    "jsx": "react",
+    "baseUrl": "./",
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true
   }
 }
 

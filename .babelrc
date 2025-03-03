@@ -5,7 +5,10 @@
       {
         "root": ["./"],
         "alias": {
-          // "@screen": "src/Screens/index"
+         "@screen": "src/Screens/index",
+         "@assets": "./assets/index",
+         "@components": "./components/index",
+         
         }
       }
     ]
