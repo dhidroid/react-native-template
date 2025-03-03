@@ -4,15 +4,10 @@
     "strict": true,
     "target": "es5",
     "paths": {
-      "@assets": [
-        "./assets/index.ts"
-      ],
-      "@screen": [
-        "./src/screens/index.ts"
-      ],
-      "@components": [
-        "./src/components/index.ts"
-      ]
+      "@assets": ["./assets/index.ts"],
+      "@screen": ["./src/screens/index.ts"],
+      "@components": ["./components/index.ts"],
+      "@requstServer": ["./constants/requstServer.ts"]
     },
     "esModuleInterop": true,
     "module": "CommonJS",

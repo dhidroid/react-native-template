@@ -5,7 +5,7 @@ import { useTheme } from '../../../themes/ThemeProvider';
 import { MinColor } from '../../../themes/colors';
 import { RNText } from '../../../components/index';
 // import { RNText } from 'components';
-import AlertCompoent from '../../../components/Alert/AlertComponent'
+import { infoBox } from '../../../workers/utils';
 
 
 const HomeScreen = () => {
@@ -15,7 +15,7 @@ const HomeScreen = () => {
         <View style={{ backgroundColor: theme === 'dark' ? MinColor.darkColor : MinColor.lightColor, flex: 1 }}>
             <View>
                 <RNText>text</RNText>
-                <Button title='alert' onPress={() => AlertCompoent.message("sjdhfj")} />
+                <Button title='alert' onPress={() => infoBox('This is an info message')} />
             </View>
         </View>
     );

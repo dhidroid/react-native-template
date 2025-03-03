@@ -1,0 +1,2 @@
+// login
+export const LOGIN = '';

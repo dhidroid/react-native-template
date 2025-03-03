@@ -7,7 +7,8 @@
         "alias": {
           "@screen": "./src/screens/index.ts",
           "@assets": "./assets/index.ts",
-          "@components": "./src/components/index.ts"
+          "@components": "./components/index.ts",
+          "@requstServer": "./constants/requstServer.ts"
         }
       }
     ]
